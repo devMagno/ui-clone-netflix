@@ -54,4 +54,15 @@ header nav a:hover {
   background: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)100%), url('../img/mainRaM.jpg');;
   height: 400px;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.main-movie .title{
+  font-size: 50px;
+}
+.main-movie .description {
+  margin-bottom: 40px;
 }
