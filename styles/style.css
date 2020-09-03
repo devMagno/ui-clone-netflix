@@ -2,6 +2,8 @@
 :root {
   --mainRed: #E50914; 
   --black: #141414;
+  --lightGray: #AAA;
+  --lighterGray: #fff;
 }
 * {
   margin: 0;
@@ -19,4 +21,12 @@ header .logo{
   font-family: 'Bebas Neue', 'Arial Black';
   font-size: 40px;
   letter-spacing: 6px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--lightGray);
+}
+header nav a:hover {
+  color: var(--lighterGray);
 }
