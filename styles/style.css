@@ -13,19 +13,36 @@
 
 body {
   background: var(--black);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Helvetica, sans-serif;
 }
 
-header .logo{
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  margin-left: 20px;
   color: var(--mainRed);
   font-family: 'Bebas Neue', 'Arial Black';
-  font-size: 40px;
+  font-size: 46px;
   letter-spacing: 6px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;    
 }
 
 header nav a {
+  margin-right: 16px;
   text-decoration: none;
   color: var(--lightGray);
+  transition: color 0.2s;
+  font-size: 18px;
 }
 header nav a:hover {
   color: var(--lighterGray);
