@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 :root {
   --mainRed: #E50914; 
   --black: #141414;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: var(--black);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header .logo{
+  color: var(--mainRed);
+  font-family: 'Bebas Neue', 'Arial Black';
+  font-size: 40px;
+  letter-spacing: 6px;
 }
