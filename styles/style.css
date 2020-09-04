@@ -60,7 +60,7 @@ header nav a:hover {
   justify-content: center;
   align-items: flex-start;
 }
-.main-movie .title{
+.main-movie .title {
   margin-top: 5%;
   font-size: 50px;
 }
@@ -81,7 +81,7 @@ header nav a:hover {
   cursor: pointer;
   background-color: rgb(197, 197, 197);
 }
-.button + .button{
+.button + .button {
   background-color: #4f4d4e;
   color: white;
   margin-left: 15px;
@@ -107,9 +107,14 @@ header nav a:hover {
   width: 100%;
   height: 100%;
   display: block;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   transition: border 0.3s;
 }
-.movie-box:hover{
-  border: 1px solid white;
+.movie-box:hover {
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.owl-dots {
+  display: none
 }
