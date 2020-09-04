@@ -92,3 +92,10 @@ header nav a:hover {
 .button i {
   margin-right: 5px;
 }
+
+.container {
+  margin-left: 20px;
+}
+.main-movie .container {
+  width: 70%;
+}
