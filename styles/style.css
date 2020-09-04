@@ -100,6 +100,9 @@ header nav a:hover {
   width: 70%;
 }
 
+.movie-carousel {
+  margin-top: 5px;
+}
 .movie-box {
   width: 100%;
   height: 100%;
@@ -107,7 +110,6 @@ header nav a:hover {
   border: 1px solid transparent;
   transition: border 0.3s;
 }
-
 .movie-box:hover{
   border: 1px solid white;
 }

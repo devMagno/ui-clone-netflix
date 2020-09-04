@@ -1,0 +1,27 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  header .logo {
+    margin-left: 0;
+  }
+
+  .button {
+    margin-top: 8px;
+    width: 220px;
+  }
+  .button + .button {
+    margin-left: 0;
+  }
+
+  .main-movie .description {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .description {
+    width: 50%;
+  }
+}
