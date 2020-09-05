@@ -1,4 +1,5 @@
 $('.owl-carousel').owlCarousel({
+    dots: false,
     stagePadding: 50,
     loop:true,
     margin:10,
