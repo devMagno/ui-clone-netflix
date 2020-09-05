@@ -15,9 +15,25 @@
     margin-left: 0;
   }
 
+  .main-movie {
+    background-position-x: 30%;
+  }
+
   .main-movie .description {
     margin-bottom: 10px;
   }
+
+  .container nav {
+    margin-bottom: 5px;
+  }
+  .container nav a {
+    font-size: 16px;
+  }
+
+  .desc2 {
+    display: none;
+  }
+  
 }
 
 @media screen and (min-width: 1000px) {
